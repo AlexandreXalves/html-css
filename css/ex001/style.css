@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@font-face {
+    font-family:"CloisterBlack"; ;
+    src: url('CloisterBlack.ttf') format('truetype'); 
+}
+
+
+
+body {
+
+    background-image: linear-gradient(to left, #61FC49, #49FC73);
+
+
+}
+
+main {
+    background-image: linear-gradient(to right, rgb(71, 142, 201), blue);
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 30px 30px 30px #00000050;
+
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 20px 50px 100px #000000;
+    font-family: 'CloisterBlack', sans-serif;
+    font-size: 5em;
+
+}
+
+h2 {
+    color: blue;
+
+}
+
+p {
+    text-align: justify;
+    font-family:'Caveat';
+}
+
+h2#verddao {
+    background-color: #61FC49;
+}
+
+h1:hover {
+    color: brown;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}

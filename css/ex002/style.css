@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 50px;
+    display: flex;
+    justify-content: start;
+}
+
+header {
+    display: inline-block;
+    display: flex;
+    gap: 50px;
+
+}
+
+a {
+    color: red;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+a::before {
+    background-image: url(".tiktok-.png");
+}
+
+a::after {
+    content: '#';
+}
+
+body {
+    background-color: rgb(214, 108, 108);
+}

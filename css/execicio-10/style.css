@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: #61aa51;
+    margin: 0px;
+}
+
+header > div > h1 {
+    font-family: 'zalando sans expanded';
+    font-size: 3em;
+}
+
+header > div > p {
+    font-family: 'zalando sans expanded';
+    font-size: 1.5em;
+    max-width: 500px;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #25DB00, #1B5110);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+h1#titulo {
+    color: #125704;
+    font-family: 'barriecito';
+    margin: 8px 20px;
+}
+
+nav {
+    gap: 30px;
+    display: flex;
+    margin: 5px;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    font-weight: bolder;
+    transition-duration: 1s;
+}
+
+nav > a:hover{
+    background-color: #25DB00;
+    color: #1B5110;
+}
+
+
+main {
+    background-color: #ffffff;
+    width: 70%;
+    margin: auto;
+    padding: 0px;
+}
+
+aside {
+    text-align: center;
+    width: auto
+}
+
+article#video {
+    background-color: #0b3003;
+    text-align: center;
+    padding: 20px 30px;
+
+}
+
+img{
+    width: 100%;
+}
+
+.fim {
+    background-color: #c6ffbb;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.lista {
+    display: flex;
+    gap: 70px;
+    margin: 10px 5px;
+}
+
+h2 {
+    color: #125704;
+    margin: 10px;
+    background-image: linear-gradient(to right, rgb(144, 212, 144), transparent);
+    font-family: 'condiment';
+}
+
+strong {
+    color: #1a5c06;
+    background-color: #69f53e;
+}
+
+p > a {
+    text-decoration: none;
+    color: #29cc08;
+    padding: 2px;
+}
+
+p > a::after {
+    content: '🔗';
+}
+
+p {
+    text-indent: 2em;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2em;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div>h3 {
+    background-color: #3e6137;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.utimo {
+    margin:0px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #104602;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+
+}
