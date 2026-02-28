@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        .i{
+            background-color: rgb(225, 255, 0);
+        }
+      
+        .n{
+            background-color: rgb(0, 255, 30);
+            
+        }
+
+      #sk {
+        text-align: right;
+      }
+
+      td {
+        text-align: center;
+      }
+ 
+    </style>
+
+
+</head>
+
+<body>
+    <h1> exercicio de tabelas</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="n" span="2">
+    
+            <col class="i" span="2">
+        </colgroup>
+
+        <caption>cadastro</caption>
+
+        <tr>
+            <th scope="row">nome</th>
+            <th>sexo</th>
+            <th scope="col">idade</th>
+            <th>profissao</th>
+        </tr>
+
+        <tr>
+            <td>gustavo</td>
+            <td>m</td>
+            <td id="sk">22</td>
+            <td>estudante</td>
+        </tr>
+
+        <tr>
+            <td>ana</td>
+            <td>f</td>
+            <td id="sk">21</td>
+            <td>estudante</td>
+        </tr>
+
+        <tr>
+            <td>joao</td>
+            <td>m</td>
+            <td id="sk">22</td>
+            <td>estudante</td>
+        </tr>
+
+        <tr>
+            <td>maria</td>
+            <td>f</td>
+            <td id="sk">21</td>
+            <td>estudante</td>
+        </tr>
+
+        <tr>
+            <td>pedro</td>
+            <td>m</td>
+            <td id="sk">22</td>
+            <td>estudante</td>
+        </tr>
+
+        <tr>
+            <td>joana</td>
+            <td>f</td>
+            <td id="sk">21</td>
+            <td>estudante</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

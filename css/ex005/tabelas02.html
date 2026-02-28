@@ -9,15 +9,15 @@
 
 <style>
     table {
-        width: 500px;
+        width: 30vw;
         border-collapse: collapse;
     }
 
     td,
-    tr {
+    th {
         border: 2px solid rgb(0, 0, 0);
         padding: 5px;
-         align-items: center;
+        align-items: center;
     }
 
     .num {
@@ -28,10 +28,29 @@
     tfoot {
         background-color: gray;
         color: white;
-       
+
     }
 
+    caption {
+        background-color: green;
+        color: white;
+        padding: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5em;
+    }
 
+    #ps {
+        width: 50px;
+    }
+    tbody > tr:nth-child(even) {
+        background-color: lightgray;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+    }
 
 </style>
 
@@ -39,12 +58,13 @@
     <h1>uso de tabelas grande</h1>
 
     <table>
+        <caption>populacao dos estados</caption>
         <thead>
             <tr>
-                <td>posiçao</td>
-                <td>stado</td>
-                <td>população</td>
-                <td>%</td>
+                <th scope="col" id="ps">posiçao</th>
+                <th scope="col">stado</th>
+                <th scope="col">população</th>
+                <th scope="col">%</th>
             </tr>
         </thead>
 
@@ -54,7 +74,7 @@
                 <td>1</td>
                 <td>sao paulo</td>
                 <td class="num">46 081 801</td>
-                <td class="num"21,59%</td>
+                <td class="num" 21,59%</td>
             </tr>
 
             <tr>
@@ -166,7 +186,7 @@
                 <td>18</td>
                 <td>Piauí</td>
                 <td class="num">3 384 547</td>
-                <td class="num">1,59%<</td>
+                <td class="num">1,59%</td>
             </tr>
             <tr>
                 <td>19</td>
@@ -182,8 +202,9 @@
             </tr>
             <tr>
                 <td>21</td>
-                <td>Mato Grosso do Sul	</td>
-                <td class="num">2 839 988</td></td>
+                <td>Mato Grosso do Sul </td>
+                <td class="num">2 839 988</td>
+                </td>
                 <td class="num">1,37%</td>
             </tr>
             <tr>
@@ -222,13 +243,13 @@
                 <td class="num">738 772</td>
                 <td class="num">0,35%</td>
             </tr>
-          
+
         </tbody>
 
         <tfoot>
 
             <tr>
-                
+
                 <th></th>
                 <th>total</th>
                 <td>213 421 037</td>
