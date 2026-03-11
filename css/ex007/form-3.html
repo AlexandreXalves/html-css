@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1> Teste de formulario</h1>
+
+    <form action="teste.php" method="get" autocomplete="on">
+        <p>
+
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome conpleto " maxlength="30">
+        </p>
+
+        <p>
+            <label for="itel">Telefone</label>
+            <input type="number" name="" id="itel" required placeholder="Numero de telafone" minlength="11" step="2">
+        </p>
+
+        <P>
+            <label for="imes">Mês de aniversário</label>
+            <input type="month" name="mes" id="imes" required>
+        </P>
+
+        <p>
+            <label for="idata">Data de nascimento</label>
+            <input type="date" name="data" id="idata" required>
+        </p>
+
+        <P>
+            <label for="ihora"></label>
+            <input type="time" name="hora" id="ihora" required>
+        </P>
+
+        <p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar" >
+        </p>
+
+    </form>
+
+
+
+</body>
+
+</html>
