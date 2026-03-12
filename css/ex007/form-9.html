@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>
+        Teste de formulario
+    </h1>
+
+    <form action="teste.php" method="post">
+
+        <P>
+            <label for="inum">Numero:</label>
+            <input type="range" name="Numero" id="inum" min="0" max="100" value="0" oninput="ival.innerHTML = Number(inum.value)">
+            <output name="nun" id="ival">0</output>
+        </P>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

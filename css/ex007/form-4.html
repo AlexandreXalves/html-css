@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    fieldset{
+        background-color: lightgray;
+        display: inline-block;
+    }
+</style>
+
+</head>
+<body>
+
+    <h1>Teste de formulario</h1>
+
+    <form action="teste.php" method="get" autocomplete="on">
+
+<fieldset>
+    <legend>Informações pessoais</legend>
+    <p>
+    
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="Inome" required autocomplete="name">
+    </p>
+    
+    <p>
+        <label for="itelefone">Telefone:</label>
+        <input type="tel" name="Telefone" id="itelefone"  required minlength="11" maxlength="13" pattern="^\(d{2}\)$" autocomplete="tel" placeholder="(xx)xxxxx-xxxx">
+    </p>
+    
+    <p>
+        <label for="iemail">Email:</label>
+        <input type="email" name="email" id="iemail"  required autocomplete="email">
+    </p>
+</fieldset>
+
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</p>
+
+    </form>
+    
+</body>
+</html>
