@@ -11,16 +11,32 @@
 
     <form action="sddda" method="post">
 
-        <p>
-            <label for="iano">Em que ano você nasceu?</label>
-            <input type="number" name="ano" id="iano" min="1900" max="2026" oninput="iidade.innerHTML = 2026 - Number(iano.value)">
-        </p>
+        <fieldset>
+            <legend>Idade</legend>
+            <p>
+                <label for="iano">Em que ano você nasceu?</label>
+                <input type="number" name="ano" id="iano" min="1900" max="2026" oninput="iidade.innerHTML = 2026 - Number(iano.value)">
+            </p>
+             <p>
+                <label for="iidade">Sua idade é:</label>
+                <output id="iidade">0</output>
+            </p>
+        </fieldset>
 
-        <p>
-            <label for="iidade">Sua idade é:</label>
-            <output id="iidade">0</output>
-        </p>
 
+        <fieldset>
+            <legend>Dias</legend>
+            <p>
+                <label for="idias">Sua data de nascimento?</label>
+                <input type="number" name="dias" id="idias" oninput="idi.innerHTML = 366 * Number(idias.value)">
+            </p>
+            <p>
+                <label for="idi">Quantos dias você já viveu:</label>
+                <output id="idi">0</output>
+            </p>
+        </fieldset>
+
+       
 <p>
     <input type="reset" value="Limpar">
     <input type="submit" value="Enviar">
