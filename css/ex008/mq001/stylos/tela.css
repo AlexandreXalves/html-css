@@ -1,0 +1,51 @@
+/*tela para tela*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+header{
+    background-color: green;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header  ul{
+    list-style-type:none;
+    display: inline-block;
+}
+
+header li{
+    display: inline-block;
+    padding: 5px;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 5px;
+}
+
+main{
+    background-color: turquoise;
+}
+
+article{
+    background-color: lightgrey;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+}
+
+article p{
+    padding: 5px;
+    text-indent: 2em;
+}
