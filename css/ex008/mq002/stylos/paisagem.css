@@ -1,7 +1,14 @@
-/* para tela retrato */
+/* para tela deitada */
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing:border-box
+}
+
+body{
+    background-image: url('../img/cev-landscape.jpg');
+    background-position: left bottom;
+    width: 100vw;
+    height: 100vh
 }

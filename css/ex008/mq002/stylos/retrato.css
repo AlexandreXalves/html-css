@@ -5,3 +5,10 @@
     padding: 0px;
     box-sizing:border-box 
 }
+
+body{
+    background-image: url('../img/cev-portrait.jpg');
+    background-position: center bottom;
+    width: 100vw;
+    height: 100vh
+}
