@@ -1,0 +1,48 @@
+
+
+
+@media screen and (min-width: 768px) {
+    header h1{
+        color: black;
+    }
+    menu{
+        display: block;
+        text-align: left;
+    }
+
+    menu li{
+        display: inline-block;
+        background-color: grey;
+    }
+
+
+    menu  a{
+        color: black;
+        font-weight: bold;
+    }
+
+    menu  a:hover{
+       color: green;
+    }
+
+    span#burguer{
+        display: none;
+        text-align: left;
+    }
+
+    main h2{
+        color: black;
+        font-size: 2em;
+        padding: 10px;
+    }
+ 
+    main article {
+        border-radius: 0px;
+        width: 700px;
+        margin: auto;
+    }
+
+    main{
+        background-color: rgba(128, 128, 128, 0.438);
+    }
+}

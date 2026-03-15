@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.3em;
+}
+
+body {
+    height: 100vh;
+}
+
+body {
+    background: black url('../img/back-phone.jpg') no-repeat center/ cover;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(252, 252, 252, 0.555);
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+main h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+img{
+    margin: auto;
+}
+
+
+img#fhone{display: block;}
+img#tablet{display: none;}
+img#pc{display: none;}
+img#impresora{display: none;}
+img#tv{display: none;}

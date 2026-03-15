@@ -1,0 +1,81 @@
+
+
+/*todas as telas*/
+
+/* typical device breakpoints
+pequenas telas: ate 600px
+celular: de 600px ate 768px
+tablet: 768px ate 992px
+desktop: 992px ate 1200px
+grandes telas: acima de 1200px
+*/
+
+@media print {
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url('../img/back-print.jpg');
+    }
+    
+main{
+    border: 2px solid black;
+}
+
+
+    main h1{
+        text-shadow: none;
+        color: rgb(255, 0, 0);
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+    }
+
+
+    img#fhone{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#impresora{display: block;}
+    img#tv{display: none;}
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body{
+        background-image: url('../img/back-tablet.jpg');
+    }
+
+    img#fhone{display: none;}
+    img#tablet{display: block;}
+    img#pc{display: none;}
+    img#impresora{display: none;}
+    img#tv{display: none;}
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url('../img/back-pc.jpg');
+    }
+    img#fhone{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: block;}
+    img#impresora{display: none;}
+    img#tv{display: none;}
+        
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url('../img/back-tv.jpg');
+    }
+    img#fhone{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#impresora{display: none;}
+    img#tv{display: block;}
+        
+}
