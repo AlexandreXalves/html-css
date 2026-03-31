@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexesive box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .conteiner{
+            display: flex;
+            background-color: blue;
+        
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+        }
+
+        .iten{
+            background-color: chocolate;
+            border: 1px solid black;
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            margin: auto;
+        
+        }
+    </style>
+</head>
+<body>
+        <div class="conteiner">
+            <div class="iten">A</div>
+            <div class="iten">B</div>
+            <div class="iten">C</div>
+            <div class="iten">D</div>
+            <div class="iten">E</div>
+            <div class="iten">F</div>
+            <div class="iten">G</div>
+            <div class="iten">H</div>
+        </div>
+</body>
+</html>
