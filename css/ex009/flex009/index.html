@@ -9,25 +9,33 @@
             display: flex;
             background-color: blue;
 
+            flex-flow: row nowrap;
+
         }
 
         .iten{
             background-color: chocolate;
             border: 1px solid black;
-            flex: auto;
+        
             text-align: center;
+            flex-basis: auto;
+        }
+
+        #p1{
+            flex-basis: 200px;
+      
         }
     </style>
 </head>
 <body>
         <div class="conteiner">
             <div class="iten">A</div>
-            <div class="iten">B</div>
+            <div class="iten">Esse e um bloco grande</div>
             <div class="iten">C</div>
-            <div class="iten">D</div>
-            <div class="iten">E</div>
+            <div class="iten" id="p1">D</div>
+            <div class="iten">Esse e um bloco muito muito grande</div>
             <div class="iten">F</div>
-            <div class="iten">G</div>
+            <div class="iten">Esse um bloco extremamente muito muito grande</div>
             <div class="iten">H</div>
         </div>
 </body>

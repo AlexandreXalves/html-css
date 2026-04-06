@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexesive box</title>
     <style>
+        body{
+            height: 100vh;
+            background-color: darkblue;
+        }
         .conteiner{
             display: flex;
             background-color: blue;
+            height: 400px;
 
+            flex-flow: row wrap;
+            align-content: space-between;
         }
 
         .iten{
             background-color: chocolate;
             border: 1px solid black;
-            flex: auto;
             text-align: center;
+            padding: 40px;
         }
     </style>
 </head>
@@ -28,7 +35,10 @@
             <div class="iten">E</div>
             <div class="iten">F</div>
             <div class="iten">G</div>
-            <div class="iten">H</div>
+             <div class="iten">H</div>
+              <div class="iten">i</div>
+               <div class="iten">j</div>
+            <div class="iten">K</div>
         </div>
 </body>
 </html>
