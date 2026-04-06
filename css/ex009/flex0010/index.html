@@ -6,29 +6,28 @@
     <title>Flexesive box</title>
     <style>
         .conteiner{
+            display: flex;
             background-color: blue;
 
-             display: flex;
         }
 
         .iten{
             background-color: chocolate;
             border: 1px solid black;
-            flex: auto;
             text-align: center;
+           
+            flex-flow: row nowrap;
+         
         }
+
+
     </style>
 </head>
 <body>
         <div class="conteiner">
-            <div class="iten">A</div>
-            <div class="iten">B</div>
-            <div class="iten">C</div>
-            <div class="iten">D</div>
-            <div class="iten">E</div>
-            <div class="iten">F</div>
-            <div class="iten">G</div>
-            <div class="iten">H</div>
+            <div class="iten" id="p1">A</div>
+            <div class="iten" id="p2">B</div>
+            <div class="iten" id="p3">C</div>
         </div>
 </body>
 </html>
