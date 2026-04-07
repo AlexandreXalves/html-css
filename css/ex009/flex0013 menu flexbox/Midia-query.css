@@ -1,0 +1,28 @@
+@media screen and (min-width: 600px) {
+
+
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+
+    header h1 {
+        font-size: 4em;
+        padding: 0px 300px 0px 0px;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    header a {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 2em;
+        margin: 5px;
+    }
+
+}
