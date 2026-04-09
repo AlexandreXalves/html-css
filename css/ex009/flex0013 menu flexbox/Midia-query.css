@@ -1,28 +1,23 @@
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 
-
-    header {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        padding: 20px 0px;
-    }
-
-    header h1 {
-        font-size: 4em;
-        padding: 0px 300px 0px 0px;
-    }
-
-    header nav {
-        flex-direction: row;
-        padding: 0;
+    header, header > nav {
+        flex-direction: column;
     }
 
     header a {
-        padding: 10px 20px;
-        border-radius: 8px;
-        font-size: 2em;
-        margin: 5px;
+        text-align: center;
+        width: 90vw;
+        border-radius: 15px;
     }
 
+    header h1 {
+        text-align: center;
+        flex: none;
+    }
+
+    .conteiner{
+        max-width: none;
+        margin: none;
+        
+    }
 }
